@@ -102,7 +102,7 @@ class UserRecovery extends Component {
           <Form.Item
             style={{ display: this.state.display === 1 ? "block" : "none" }}
           >
-            <Button block onClick={this.handleNext}>
+            <Button type="primary" block onClick={this.handleNext}>
               Next
             </Button>
           </Form.Item>

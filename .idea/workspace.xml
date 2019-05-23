@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acd03a5c-507a-4f75-8ed5-8c6507af7e01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/User/components/UserLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/components/UserLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/components/UserRecovery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/components/UserRecovery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User/components/UserSignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/components/UserSignUp.js" afterDir="false" />
-    </list>
+    <list default="true" id="acd03a5c-507a-4f75-8ed5-8c6507af7e01" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -83,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/User/components/UserRecovery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="36">
               <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -253,18 +249,17 @@
       <workItem from="1558172533096" duration="4683000" />
       <workItem from="1558181228585" duration="5784000" />
       <workItem from="1558620225332" duration="3678000" />
-      <workItem from="1558625652369" duration="1046000" />
+      <workItem from="1558625652369" duration="1194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28772000" />
+    <option name="totallyTimeSpent" value="28920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -278,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32909784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32909784" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,7 +405,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User/components/UserRecovery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="36">
           <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
