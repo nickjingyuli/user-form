@@ -29,7 +29,7 @@ class UserLogin extends Component {
       <div>
         <h1>PROJECT TITLE</h1>
         <br />
-        <Form {...formItemLayout} onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Item colon={false} label="Username or Email">
             {getFieldDecorator("username", {
               rules: [

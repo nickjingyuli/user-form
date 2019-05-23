@@ -35,7 +35,7 @@ class UserSignUp extends Component {
     return (
       <div>
         <h1>Sign Up</h1>
-        <Form {...formItemLayout} onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Item colon={false} label="First Name">
             {getFieldDecorator("first-name", {
               rules: [

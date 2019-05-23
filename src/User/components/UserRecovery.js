@@ -48,7 +48,7 @@ class UserRecovery extends Component {
     return (
       <div>
         <h1>Password Recovery</h1>
-        <Form {...formItemLayout} onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Item
             colon={false}
             label="Enter username"
