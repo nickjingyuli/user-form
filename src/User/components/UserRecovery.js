@@ -78,7 +78,7 @@ class UserRecovery extends Component {
           <Form.Item
             colon={false}
             label="Confirm Password"
-            style={{ display: this.state.display === 3 ? "block" : "none" }}
+            style={{ display: this.state.display === 2 ? "block" : "none" }}
           >
             {getFieldDecorator("password-confirm", {
               rules: [
@@ -93,14 +93,14 @@ class UserRecovery extends Component {
             })(<Input.Password />)}
           </Form.Item>
           <Form.Item
-            style={{ display: this.state.display === 3 ? "block" : "none" }}
+            style={{ display: this.state.display === 2 ? "block" : "none" }}
           >
             <Button type="primary" htmlType="submit" block>
               Submit
             </Button>
           </Form.Item>
           <Form.Item
-            style={{ display: this.state.display <= 2 ? "block" : "none" }}
+            style={{ display: this.state.display === 1 ? "block" : "none" }}
           >
             <Button block onClick={this.handleNext}>
               Next
