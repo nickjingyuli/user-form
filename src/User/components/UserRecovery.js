@@ -1,9 +1,22 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { Form, Input, Button } from "antd";
 import "../styles/User.scss";
 
 class UserRecovery extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      display: 1
+    };
+  }
+
+  handleNext = () => {
+    const display = this.state.display + 1;
+    this.setState({
+      display: display
+    });
+  };
+
   handleSubmit = e => {
     e.preventDefault();
     this.props.form.validateFieldsAndScroll((err, values) => {
@@ -36,7 +49,11 @@ class UserRecovery extends Component {
       <div>
         <h1>Password Recovery</h1>
         <Form {...formItemLayout} onSubmit={this.handleSubmit}>
-          <Form.Item colon={false} label="Username">
+          <Form.Item
+            colon={false}
+            label="Enter username"
+            style={{ display: this.state.display === 1 ? "block" : "none" }}
+          >
             {getFieldDecorator("username", {
               rules: [
                 {
@@ -45,7 +62,11 @@ class UserRecovery extends Component {
               ]
             })(<Input />)}
           </Form.Item>
-          <Form.Item colon={false} label="New Password">
+          <Form.Item
+            colon={false}
+            label="New Password"
+            style={{ display: this.state.display === 2 ? "block" : "none" }}
+          >
             {getFieldDecorator("password", {
               rules: [
                 {
@@ -54,7 +75,11 @@ class UserRecovery extends Component {
               ]
             })(<Input.Password />)}
           </Form.Item>
-          <Form.Item colon={false} label="Confirm Password">
+          <Form.Item
+            colon={false}
+            label="Confirm Password"
+            style={{ display: this.state.display === 3 ? "block" : "none" }}
+          >
             {getFieldDecorator("password-confirm", {
               rules: [
                 {
@@ -67,9 +92,18 @@ class UserRecovery extends Component {
               ]
             })(<Input.Password />)}
           </Form.Item>
-          <Form.Item>
+          <Form.Item
+            style={{ display: this.state.display === 3 ? "block" : "none" }}
+          >
             <Button type="primary" htmlType="submit" block>
               Submit
+            </Button>
+          </Form.Item>
+          <Form.Item
+            style={{ display: this.state.display <= 2 ? "block" : "none" }}
+          >
+            <Button block onClick={this.handleNext}>
+              Next
             </Button>
           </Form.Item>
         </Form>
